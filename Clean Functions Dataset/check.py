@@ -19,8 +19,7 @@ def save_data(name, data):
   fp.close()
   
 
-def check_special_charecter(data:list):
-    character = "[-=!؟٬٫﷼٪×*\)\(ـ+ًٌٍَُِّْ]}{؛:«ٰ»ٰٓ‌ٔء><؟؟}٪]"
+def check_special_charecter(data:list, character):
     for text in data:
       for i in character:
         if i in text:
