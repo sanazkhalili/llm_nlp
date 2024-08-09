@@ -8,7 +8,7 @@ def clean_tags(list_tags, data):
     for tag in list_tags:
       row = row.replace(tag, '')
     if len(row)!=0:
-      list_cleaned.append(row+'\n')
+      list_cleaned.append(row)
   return list_cleaned
 
 
