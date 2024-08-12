@@ -1,3 +1,4 @@
+# https://github.com/haraai/ParsiNorm
 import re
 from decimal import Decimal
 import copy
@@ -487,7 +488,7 @@ class General_normalization:
 
         self.punctuation_underline = {'▁': '_', '_': '_', '̲': '_'}
 
-        self.punctuation_question = {'❔': '؟', '?': '؟', '�': '؟', '？': '؟', 'ʕ': '؟', 'ʔ': '؟', '🏻': '؟', '\x08': '؟',
+        self.punctuation_question = {'❔': '؟', '?': '؟', ' ': '؟', '？': '؟', 'ʕ': '؟', 'ʔ': '؟', '🏻': '؟', '\x08': '؟',
                                      '\x97': '؟', '\x9d': '؟'}
 
         self.punctuation_Exclamation = {'❕': '!', '！': '!'}
