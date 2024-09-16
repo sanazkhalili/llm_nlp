@@ -22,3 +22,11 @@ print(list_clean)
 
 ## Persian model tools folder
 We have collected several models for Persian and multilingual (supporting Persian) tokenization and text classification tasks.
+
+## Persian Poem Dataset Folder
+This data sources were collected from
+
+- **Ganjoor**: [Ganjoor Text Corpus](https://github.com/ganjoor/ganjoor-tex/tree/master/txt)
+- **Kaggle**: [Large Corpus of Farsi Poems](https://www.kaggle.com/datasets/aminghd/large-corpus-of-farsi-poems?select=shahriar_norm.txt)
+- **amnghd**: [Persian Poems Corpus](https://github.com/amnghd/Persian_poems_corpus/tree/master/original)
+
